@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("../image/fontlin.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header { /* Style the header */
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: #00ffd9;
+}
+
+nav { /* Create two columns/boxes that floats next to each other */
+    float: left;
+    width: 20%;
+    background: #11ff00;
+    padding: 20px;
+}
+
+nav ul { /* Style the list inside the menu */
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 10px;
+    width: 50%;
+    font-size: xx-large;
+    margin: 0 0 50px 0;
+}
+
+section::after { /* Clear floats after the columns */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer /* Style the footer */
+{
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    color: #ff0000;
+}
+
+@media (max-width: 600px) {
+    /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+p {
+    font-family: Gabriola, serif;
+    font-size: 100%;
+}
+
+a:link { /*lien non ouvert*/ /*en rajoutant: .x (x = id du texte) apres a, sela déffinie l'id du texte a changer*/
+    text-decoration: none; /*décoration du text*/
+    color: #ffffff;
+}
+
+a:visited { /*lien déja ouvert*/
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover { /*lien avec la souris dessus*/
+    text-decoration: underline; /*décoration du text, dans l'exemple: souligner le texte*/
+    color: #00c4ff;
+}
+
+a:active { /*quand on clique sur le lien*/
+    text-decoration: underline;
+    color: #00ffd9;
+}
+
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+.mix {border-style: dotted dashed solid double;}
+
+/*permet d'aficher la barre*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282828;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #002aff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: transparent;
+}
+
+.li1{
+    float: right;
+}
+
+#a1 {
+    background-color: #93e39b;
+}
+
+.active {
+    background-color: #38ff00;
+}
+
+#ac {
+    background-color: #38ff00;
+}
+
+#cl1{
+    font-family: Gabriola, serif;
+    font-size: 200%;
+    color: black;
+    line-height: 3px;
+}
+
+#cl2{
+    color: red;
+    font-size: 250%;
+    font-family: Gabriola, serif;
+}
+
+.footlin {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    color: #ff0000;
+    line-height: 5px;
+    border: 5px solid black;
+    font-size: 12px
+}

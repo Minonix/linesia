@@ -1,0 +1,18 @@
+#l1 {
+    color: white;
+}
+
+#t1 {
+    color: red;
+    font-style: italic;
+    height: 20px;
+    width: 100%;
+}
+
+.one {
+    float: right;
+    padding: 10px;
+    width: 50%;
+    background-color: red;
+    font-size: xx-large;
+}

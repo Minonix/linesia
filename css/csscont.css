@@ -1,0 +1,53 @@
+#acont{
+    font-size: xx-large;
+    font-family: Verdana,serif;
+}
+
+#attm{
+    color: #ff0000;
+}
+
+#am1{
+    color: #2441ff;
+    text-decoration: underline;
+}
+
+.lint {
+    float: left;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    background-color: rgba(65, 229, 113, 0.8);
+    border-style: solid;
+}
+
+#buttonone{
+    font-size: xx-large;
+    background-image: url("../image/icon.jpg");
+    background-repeat: no-repeat;
+    color: #00ff0d;
+
+}
+
+#admin{
+    color: red;
+}
+
+th, td {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+table, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+p{
+    font-size: 125%;
+}

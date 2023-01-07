@@ -1,0 +1,15 @@
+.lint {
+    float: left;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    background-color: transparent;
+    border-style: solid;
+}
+
+#disc {
+    font-size: xx-large;
+    font-style: italic;
+    color: red;
+}

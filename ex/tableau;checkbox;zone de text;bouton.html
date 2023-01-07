@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Voici mon site</title>
+	</head>
+	<body>
+	<?php
+echo "My first PHP script!";
+?>
+	<form>
+			<p>voici un champ de texte : <input type="text"/></p> <!--texte qui est afficher devant la zone de text -->
+			<p>voici une checkbox <input type="checkbox"/></p> <!--texte afficher devant le checkbox -->
+			<button>Cliquez ici !</button> <!--texte afficher dans le bouton -->
+			<table> <!--annonce l'ouverture d'un tableau -->
+  				<tr> <!--annonce de ce qui va etre écris dans la 1er ligne -->
+    				<th>Company</th> <!--1er colone -->
+    				<th>Contact</th> <!--2eme colone -->
+   					<th>Country</th> <!-- le "th" signifie que c'est un titre de tableau est et
+   					mis au centre et mis en gras -->
+  				</tr> <!--fermeture de la 1er ligne -->
+  				<tr> <!--ouverture de la 2eme ligne ... -->
+    				<td>Alfreds Futterkiste</td> <!--le "td" signifie que c'est un nom simple et donc n'y applique aucune mofification -->
+    				<td>Maria Anders</td>
+    				<td>Germany</td>
+  				</tr>
+  				<tr>
+    				<td>Centro comercial Moctezuma</td>
+    				<td>Francisco Chang</td>
+					<td>Mexico</td>
+  				</tr>
+			</table>
+			<p></p>
+			<form action="/action_page.php">
+  				<label for="fname">First name:</label><br>
+  				<input type="text" id="fname" name="fname" value="John"><br>
+  				<label for="lname">Last name:</label><br>
+  				<input type="text" id="lname" name="lname" value="Doe"><br><br>
+  				<input type="submit" value="Submit">
+			</form>
+		</form>
+
+	<!--permet de faire un bouton qui mène à une autre page-->
+	<button onclick="document.location='frozenia.html'">HTML Tutorial</button>
+	</body>
+</html>

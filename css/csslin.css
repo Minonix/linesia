@@ -1,0 +1,31 @@
+#ano{
+	font-size: 40px;
+	color: red;
+}
+
+#anop2{
+	font-size: 50px;
+	color: red;
+	text-decoration-line: underline;
+	text-decoration-color: yellow;
+}
+
+.lint {
+	float: left;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	background-color: transparent;
+	border-style: solid;
+}
+
+.footlin {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    color: #ff0000;
+    line-height: 5px;
+    border: 5px solid black;
+    font-size: 12px
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>image</title>
+</head>
+<body>
+<img src="../image/icon.jpg" alt="HTML5" style="width:999px;height:999px">  <!-- width; permet de donner la largeur et height; permet de donner la hauteur -->
+
+<video width="320" height="240" autoplay muted><!-- permet de lire automatiquement une vidéo en sourdine et fonctionne avec chrome -->
+    <source src="movie.mp4" type="video/mp4">
+    <!-- ou(en fonction du type de doc) --> <source src="movie.ogg" type="video/ogg">
+</video>
+
+<video width="320" height="240" autoplay> <!-- permet de lire automatiquement une vidéo mais ne fonctionne pas avec chrome -->
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+</video>
+
+<video width="320" height="240" controls> <!-- permet de controlet le vidéo (pause/sond ...) -->
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+</video>
+
+<iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe> <!-- permet d'afficher et de pouvoir lire une viéo déjà sur un site comme youtube-->
+
+</body>
+</html>
